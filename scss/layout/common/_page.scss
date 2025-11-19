@@ -1,8 +1,9 @@
 @use "../../variables/general";
 @use "../header/header";
+@use "../banner/banner";
 
 body {
-  font-family: general.$primary-font;
+  font-family: general.$primary-font ;
   background-color: general.$background-color;
   font-size: 11pt;
 }
