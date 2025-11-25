@@ -5,6 +5,7 @@
 @use "../common/buttons";
 @use "../common/common";
 @use "../blog/blog";
+@use "../main/main";
 @use "../footer/footer";
 @use "../common/typography";
 
@@ -17,4 +18,4 @@ body {
   @include mixins.tablet() { font-size: 9pt; }
 }
 
-.section { margin: 50px 0; }
+.section { padding: 50px 0; }
