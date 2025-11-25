@@ -5,6 +5,9 @@
 @use "../common/buttons";
 @use "../common/common";
 @use "../blog/blog";
+@use "../footer/footer";
+@use "../common/typography";
+
 body {
   font-family: general.$primary-font ;
   background-color: general.$background-color;
